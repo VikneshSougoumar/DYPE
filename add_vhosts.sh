@@ -7,7 +7,7 @@
 
 # Variables
 projet=$1
-documentRoot="/var/www/dype/$projet"
+documentRoot="/var/www/$projet"
 dypeFQDN=".dype.itinet.fr"
 serverName=$projet$dypeFQDN
 sitesAvailable="/etc/apache2/sites-available/"
