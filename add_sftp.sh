@@ -8,4 +8,4 @@
 # Variables
 user=$1
 
-grep $user /etc/passwd | sed -i 's/bash/MySecureShell/' /etc/passwd
+sudo grep $user /etc/passwd | sed -i 's/bash/MySecureShell/' /etc/passwd
