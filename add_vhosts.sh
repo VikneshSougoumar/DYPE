@@ -9,6 +9,8 @@
 projet=$1
 documentRoot="/var/www/$projet"
 dypeFQDN=".dype.itinet.fr"
+dypeMail="mail.itinet.fr"
+dypeCloud=".cloud.itinet.fr"
 serverName=$projet$dypeFQDN
 sitesAvailable="/etc/apache2/sites-available/"
 sitesEnabled="/etc/apache2/sites-enabled/"
